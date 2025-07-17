@@ -7,3 +7,47 @@
     align-items: center;
     justify-content: center;
 }
+
+
+
+/* My stuff */
+
+/* The buttons on the calculator */
+.calcButtons {
+    margin: 5px;
+    font-size: 30px;
+    padding: 0px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #1a1a1a;
+}
+
+.calcButtons:hover {
+    background-color: #292a2c;
+    cursor: pointer;
+}
+
+
+
+/* The output screen */
+.calcOutputDisplay {
+    text-align: right;
+
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 30px;
+
+    border-radius: 40px;
+
+    background-color: #1A1A1A;
+    font-size: 50px;
+
+    border: none;
+    resize: none;
+    outline: none;
+
+    overflow-x: auto;
+    overflow-y: scroll;
+    white-space: pre;
+}

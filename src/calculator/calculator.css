@@ -16,19 +16,9 @@
 
 
 /* Output */
-#calcOutputDisplay {
-    margin-left: 50px;
-    margin-right: 25px;
-    padding: 30px;
-
+.calcOutputDisplay {
     height: 80vh;
     width: 100vw;
-    border-radius: 40px;
-
-    background-color: #1A1A1A;
-
-    border: none;
-    resize: none;
 }
 
 
